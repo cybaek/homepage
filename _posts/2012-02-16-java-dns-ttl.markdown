@@ -6,7 +6,7 @@ categories: java dns
 ---
 $JAVA_HOME/jre/lib/security/java.security 파일에 TTL 5분을 설정합니다.
 
-{% highlight java %}
+{% highlight properties %}
 networkaddress.cache.ttl=300
 {% endhighlight %}
 
