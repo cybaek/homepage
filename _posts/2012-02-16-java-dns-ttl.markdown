@@ -18,6 +18,6 @@ positive-time-to-live hosts 300
 
  그리고 데몬을 재구동합니다.
 
-{% highlight sh %}
+{% highlight shell %}
 service nscd restart
 {% endhighlight}
