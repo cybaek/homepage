@@ -38,7 +38,7 @@ numberStack.pushAll(integers);
 
 사실 이 코드는 컴파일조차 할 수 없습니다.
 
-Integer가 Number를 상속했기에 당연히 되리라 생각할 수 있지만, 컴파일 타임에 Iterable<Integer>와 Iterable<Number>는 완전히 다른 타입입니다. 제네릭에서 가장 착각하기 쉬운 부분입니다.
+Integer가 Number를 상속했기에 당연히 되리라 생각할 수 있지만, 컴파일 타임에 Iterable&lt;Integer>와 Iterable&lt;Number>는 완전히 다른 타입입니다. 제네릭에서 가장 착각하기 쉬운 부분입니다.
 
 이런 경우에는 'bounded wildcard type'을 이용하면 '상식대로' 돌아가도록 개선할 수 있습니다.
 
