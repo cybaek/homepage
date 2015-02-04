@@ -34,7 +34,7 @@ PECS
 
 약어입니다. producer-extends, consumer-super. 
 
-JavaOne2008에서 조슈아 아저씨는 작년에 이 부분 설명이 좀 어려웠다고 고백하며 미안하다 했습니다. 아무래도 어느 정도의 암기가 필요했다고 생각한 것 같습니다. 저도 한 번 설명듣고 PECS를 외우고 나니, 다른 보기를 들 때 이해하는데 한결 나았습니다. 참고로 <Effective Java, 2nd> 책에도 크게 약어를 적어 놓았습니다.
+JavaOne2008에서 조슈아 아저씨는 작년에 이 부분 설명이 좀 어려웠다고 고백하며 미안하다 했습니다. 아무래도 어느 정도의 암기가 필요했다고 생각한 것 같습니다. 저도 한 번 설명듣고 PECS를 외우고 나니, 다른 보기를 들 때 이해하는데 한결 나았습니다. 참고로 &lt;Effective Java, 2nd> 책에도 크게 약어를 적어 놓았습니다.
 
 PECS stands for producer-extends, consumer-super.
 
