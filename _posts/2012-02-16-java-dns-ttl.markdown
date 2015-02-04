@@ -6,13 +6,13 @@ categories: java dns
 ---
 $JAVA_HOME/jre/lib/security/java.security 파일에 TTL 5분을 설정합니다.
 
-{% highlight txt %}
+{% highlight text %}
 networkaddress.cache.ttl=300
 {% endhighlight %}
 
 NSCD 데몬을 사용할 경우에는 /etc/nscd.conf에 아래 설정도 추가합니다.
 
-{% highlight txt %}
+{% highlight text %}
 positive-time-to-live hosts 300
 {% endhighlight %}
 
