@@ -1,0 +1,12 @@
+# Site settings
+title: 낭만검객
+email: cybaek@me.com
+description: > # this means to ignore newlines until "baseurl:"
+    NHN Entertainment에서 '재밌는 일'을 하고 있습니다.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cybaek.com" # the base hostname & protocol for your site
+#twitter_username: cybaek
+#github_username:  cybaek
+
+# Build settings
+markdown: kramdown

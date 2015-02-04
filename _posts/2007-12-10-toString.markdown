@@ -1,0 +1,19 @@
+---
+layout: post
+title:  toString()을 쉽게 만들기
+date:    2007/12/10 19:13
+categories: java
+---
+자카르타 커먼스(commons.lang) 패키지에 유용한 것이 많습니다. 그 중에 당장 쉽게 쓸 수 있는 것으로 ReflectionToStringBuilder가 있습니다.
+
+문자열 덧셈 혹은 StringBuilder의 append를 호출해서 만드는 toString 작업을 한 줄로 해결할 수 있습니다.
+
+{% highlight java %}
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
+
+@Override
+public String toString() {
+ return ReflectionToStringBuilder.toString(this);
+}
+{% endhighlight %}
+
