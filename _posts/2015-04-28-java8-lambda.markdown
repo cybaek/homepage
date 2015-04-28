@@ -194,7 +194,7 @@ public static void processPersons(
 }
 {% endhighlight %}
 
-Predicate은 boolean을 반환했는데 Consumer는 이름처럼 뭔가를 하고 반환하는 것은 없습니다. printPerson()과 같은 일에 딱 맞는 인터페이스입니다.
+`Predicate`은 `boolean`을 반환했는데 `Consumer`는 이름처럼 뭔가를 하고 반환하는 것은 없습니다. `printPerson()`과 같은 일에 딱 맞는 인터페이스입니다.
 
 이제 호출하는 쪽에서 원하는 작업을 넘기면 됩니다.
 
