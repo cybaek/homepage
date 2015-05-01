@@ -12,14 +12,14 @@ layout: default
     {{ content }}
   </article>
 
-  <article>
-        {% include disqus.html %}
-  </article>
   <article class="post-feedback">
     <div class="fb-like" data-href="http://cybaek.com{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     <!--
     <div class="fb-comments" data-href="http://cybaek.com{{ page.url }}" data-numposts="10" data-colorscheme="light"></div>
     -->
+  </article>
+  <article>
+        {% include disqus.html %}
   </article>
 
 </div>
