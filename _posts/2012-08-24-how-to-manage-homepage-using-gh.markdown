@@ -30,6 +30,7 @@ http://cybaek.com/ 과 같은 커스텀 도메인 주소에 매핑하는 것도 
 돈내고 호스팅할 필요 없겠지요? ^^
 
 참고:
+
 * https://help.github.com/categories/20/articles
 * https://help.github.com/articles/setting-up-a-custom-domain-with-pages
 
