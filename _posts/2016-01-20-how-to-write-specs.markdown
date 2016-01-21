@@ -17,4 +17,4 @@ categories: it
 
 각주:
 
-[^1]: http://www.joelonsoftware.com/articles/fog0000000035.html 
+[^1]: (Painless Functional Specifications - Part 2: What's a Spec?)[http://www.joelonsoftware.com/articles/fog0000000035.html] 
