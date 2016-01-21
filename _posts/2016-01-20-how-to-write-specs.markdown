@@ -15,6 +15,6 @@ categories: it
 
 정리하면, 스펙은 기본적으로 문장으로 기술하고, 그 문장을 만족하는 화면설계서를 그려야한다고 생각합니다. 현재 대부분의 '스펙'이라는 것이 사실은 '화면설계서'입니다.
 
-각주:
+주석:
 
 [^1]: [Painless Functional Specifications - Part 2: What's a Spec?](http://www.joelonsoftware.com/articles/fog0000000035.html) 
